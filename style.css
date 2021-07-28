@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    font-family: 'Patua One', cursive;
+}
+
+:root {
+    --primary-color: #edf2fc;
+    --secondary-color: #272627;
+}
+
+.dark-theme {
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+
+
+/* Navbar Section */
+
+.fc-logo {
+    font-size: 50px;
+    font-family: 'Reggae One', cursive;
+    letter-spacing: 4px;
+    color: var(--primary-color) !important;
+}
+
+
+/* #navigation-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+} */
+
+#navbarNav a {
+    font-size: 24px;
+    color: var(--secondary-color);
+    transition: all 0.8s;
+    border-radius: 6px;
+    font-family: 'Baloo Bhai 2', cursive !important;
+    font-weight: bold !important;
+    display: inline !important;
+}
+
+.nav-item {
+    background: #f0c980;
+    transition: all 0.5s;
+    border-radius: 12px;
+    border: 2px solid #f0c980;
+    cursor: pointer;
+    /* min-width: 140px; */
+    text-align: center;
+}
+
+.nav-item:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color) !important;
+}
+
+.nav-item:hover a {
+    color: var(--primary-color) !important;
+}
+
+.nav-item i {
+    color: var(--secondary-color) !important;
+    font-size: 23px;
+    transition: all 0.5s;
+}
+
+.nav-item:hover i {
+    color: var(--primary-color) !important;
+}
+
+.navbar {
+    background: var(--secondary-color) !important;
+}
+
+.fa-bars {
+    color: var(--primary-color);
+    font-size: 30px !important;
+}
+
+
+/* Banner Section */
+
+#banner-section {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    /* height: 65vh; */
+}
+
+#hassan {
+    color: #f0c980;
+}
+
+#modes {
+    font-size: 20px;
+    color: var(--primary-color) !important;
+    cursor: pointer;
+}
+
+#modes i {
+    font-size: 35px;
+    color: var(--primary-color) !important;
+    cursor: pointer;
+}
+
+
+/* #profile-title {
+    margin-top: 10%;
+} */
+
+#profile-title p {
+    font-weight: normal;
+}
+
+#profile-title h1 {
+    font-family: 'Patua One', cursive;
+    font-size: 70px;
+    /* font-weight: lighter; */
+}
+
+#profile-title h2 {
+    font-size: 20px;
+}
+
+#profile-btn {
+    background: #f0c980;
+    color: black;
+    border: 2px solid #f0c980 !important;
+    font-size: 18px;
+    border-radius: 27px;
+    min-width: 180px;
+    min-height: 50px;
+    transition: all 0.5s;
+}
+
+#profile-btn:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+
+/* #image-div {
+    margin-top: 3%;
+} */
+
+#image-div img {
+    height: 400px;
+    width: 400px;
+    box-shadow: inset 3px 3px 3px #0c0c0c, inset -3px -3px 3px #161616;
+    box-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+    border-radius: 50%;
+}
+
+
+/* Service Section */
+
+#service-section {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+#service-title {
+    color: var(--primary-color);
+    font-family: 'Patua One', cursive;
+}
+
+.service-box {
+    color: var(--primary-color);
+    font-family: 'Patua One', cursive;
+    background: var(--secondary-color);
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.service-box i {
+    font-size: 50px;
+    color: #f0c980;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.service-box:hover {
+    background-color: #f0c980;
+    color: var(--secondary-color);
+    transform: scale(1.02);
+}
+
+.service-box:hover i {
+    color: var(--secondary-color);
+    transform: scale(1.02);
+}
+
+#service-title h1 {
+    font-size: 45px;
+}
+
+#service-section h2 {
+    margin-bottom: 10px;
+}
+
+
+/* Skill Section */
+
+#skill-section {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+#skill-title {
+    color: var(--primary-color);
+    font-family: 'Patua One', cursive;
+}
+
+#skill-title h1 {
+    font-size: 45px;
+}
+
+.skill-bars {
+    background: #4e4c4e;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.skill-bars:hover {
+    background-color: #f0c980;
+    transform: scale(1.02);
+    color: var(--secondary-color);
+}
+
+.skill-bars:hover i {
+    color: var(--secondary-color);
+    transform: scale(1.02);
+}
+
+.skill-bars i {
+    font-size: 60px;
+    color: #f0c980;
+}
+
+.jquery-icon {
+    height: 60px;
+    color: var(--primary-color);
+}
+
+@keyframes load {
+    from {
+        width: 0%;
+    }
+}
+
+.bar {
+    height: 18px;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.bar::before {
+    content: "";
+    background: linear-gradient(to right, violet, gold);
+    display: inline-block;
+    padding: 10px;
+    border-radius: inherit;
+    animation: load 3s 0s;
+    transition: all 0.5s;
+}
+
+.skill-bars:hover .bar::before {
+    background: linear-gradient(to right, gold, violet);
+}
+
+.bar.bar1::before {
+    width: calc(95% - 10px);
+}
+
+.bar.bar2::before {
+    width: calc(75% - 10px);
+}
+
+.bar.bar3::before {
+    width: calc(90% - 10px);
+}
+
+.bar.bar4::before {
+    width: calc(70% - 10px);
+}
+
+.bar.bar5::before {
+    width: calc(85% - 10px);
+}
+
+.skill-head {
+    font-size: 30px;
+}
+
+#skill-btn {
+    background: #f0c980;
+    color: black;
+    border: 2px solid #f0c980 !important;
+    font-size: 18px;
+    border-radius: 27px;
+    min-width: 180px;
+    min-height: 50px;
+    transition: all 0.5s;
+}
+
+#skill-btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+
+/* Skill Section End */
+
+
+/* Project Section */
+
+#project-section {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.project-bar i {
+    font-size: 45px;
+}
+
+.counter {
+    font-size: 40px;
+}
+
+
+/* About Section */
+
+#about-section {
+    background: var(--secondary-color);
+}
+
+#about-title {
+    color: var(--primary-color);
+    font-family: 'Patua One', cursive;
+}
+
+#about-title h1 {
+    font-size: 45px;
+}
+
+#about-pic img {
+    height: 450px;
+    width: 450px;
+    border-radius: 12px;
+}
+
+#about-description {
+    color: var(--primary-color);
+}
+
+#about-description p {
+    font-family: 'Patua One', cursive;
+}
+
+.type {
+    color: #f0c980;
+    font-size: 50px;
+    font-family: 'Baloo Bhai 2', cursive !important;
+}
+
+
+/* About Section End */
+
+
+/* Contact Section */
+
+#contact-section {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+#contact-title h1 {
+    font-size: 45px;
+}
+
+#contact-location h2 {
+    font-size: 30px;
+}
+
+#address-row {
+    font-size: 30px;
+}
+
+#contact-form h1 {
+    font-size: 30px;
+}
+
+.form-group label {
+    font-size: 20px;
+}
+
+#form-btn {
+    background: #f0c980;
+    color: black;
+    border: 2px solid #f0c980 !important;
+    font-size: 18px;
+    border-radius: 27px;
+    min-width: 180px;
+    min-height: 50px;
+    transition: all 0.5s;
+}
+
+#form-btn:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+
+/* Universal Selectors */
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    font-family: 'Baloo Bhai 2', cursive !important;
+    font-weight: bold !important;
+}
+
+
+/* body {
+    font-family: 'Reggae One', cursive;
+    font-weight: lighter !important;
+} */
+
+h1,
+h2,
+h3,
+h4 {
+    /* font-family: 'Reggae One', cursive !important; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif !important; */
+    font-family: 'Baloo Bhai 2', cursive !important;
+}
+
+li {
+    list-style: none !important;
+}
+
+p {
+    font-family: 'Baloo Bhai 2', cursive !important;
+}
+
+
+/* Media Query */
+
+@media screen and (max-width:768px) {
+    .type {
+        font-size: 35px;
+    }
+    #about-description h1 {
+        font-size: 30px;
+    }
+    #service-title h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .type {
+        font-size: 25px;
+    }
+    #about-description h1 {
+        font-size: 20px;
+    }
+    #about-description p {
+        font-size: 16px;
+    }
+    #about-pic img {
+        height: 250px;
+        width: 250px;
+        border-radius: 12px;
+    }
+    #image-div img {
+        height: 200px;
+        width: 200px;
+    }
+}
